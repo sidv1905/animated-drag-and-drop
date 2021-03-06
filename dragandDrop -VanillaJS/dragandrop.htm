@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="draganddrop.css">
+</head>
+
+<body>
+    <div class="box-container">
+        <div class="box todo">
+            <div class="box-header todoheader">
+                To Do
+            </div>
+            <div class="draggable-container" id="parent">
+                <div class="draggable" id="1" draggable="true">
+                    #item 1
+                </div>
+                <div class="draggable" id="2" draggable="true">
+                    #item 2
+                </div>
+                <div class="draggable" id="3" draggable="true">
+                    #item 3
+                </div>
+                <div class="draggable" id="4" draggable="true">
+                    #item 4
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box working">
+            <div class="box-header aboutheader">
+                Working
+            </div>
+            <div class="draggable-container" id="parent">
+                <div class="draggable" id="5" draggable="true">
+                    #item 5
+                </div>
+                <div class="draggable" id="6" draggable="true">
+                    #item 6
+                </div>
+                <div class="draggable" id="7" draggable="true">
+                    #item 7
+                </div>
+                <div class="draggable" id="8" draggable="true">
+                    #item 8
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="box done">
+            <div class="box-header doneheader">
+                Done
+            </div>
+            <div class="draggable-container" id="parent">
+                <div class="draggable" id="9" draggable="true">
+                    #item 9
+                </div>
+                <div class="draggable" id="10" draggable="true">
+                    #item 10
+                </div>
+                <div class="draggable" id="11" draggable="true">
+                    #item 11
+                </div>
+                <div class="draggable" id="12" draggable="true">
+                    #item 12
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="draganddrop.js"></script>
+</body>
+
+</html>
